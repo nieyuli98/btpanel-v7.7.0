@@ -8,7 +8,7 @@ curl -sSO https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/instal
 ```
 ============================================
 
-## 宝塔面板7.7原版第三方存档
+### 宝塔面板7.7原版第三方存档
 
 纯原版1：curl -sSO https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/install_panel.sh && bash install_panel.sh
 
@@ -32,12 +32,15 @@ curl -sSO https://raw.githubusercontent.com/ztkink/bthappy/main/one_key_happy.sh
 chattr +i /www/server/panel/data/plugin.json
 
 
-## 宝塔linux工具箱优化脚本
+### 宝塔linux工具箱优化脚本
+
 一键修改宝塔面板模板、去除强制登陆、一键修复面板、一键更换yum源、清除系统垃圾缓存、系统优化等
+
 https://gitee.com/gacjie/btpanel_tools
+
 wget -O btpanel_tools.sh https://download.btpanel.cm/tools/btpanel_tools.sh && bash btpanel_tools.sh
 
-## 宝塔面板一键优化补丁 -彩虹
+### 宝塔面板一键优化补丁 -彩虹
 
 1.去除宝塔面板强制绑定账号
 
@@ -57,26 +60,26 @@ wget -O btpanel_tools.sh https://download.btpanel.cm/tools/btpanel_tools.sh && b
 
 适用7.9版本：wget -O optimize.sh http://f.cccyun.cc/bt/optimize_new.sh && bash optimize.sh
 
-## 安装更新运行环境（Debian系统）
+### 安装更新运行环境（Debian系统）
 
 apt update -y && apt dist-upgrade -y && apt install -y curl && apt install -y socat
 
 apt-get install -y xz-utils openssl gawk file wget screen && screen -S os
 
-## 更改SSH终端中文语言
+### 更改SSH终端中文语言
 
 wget -N --no-check-certificate https://raw.githubusercontent.com/FunctionClub/LocaleCN/master/LocaleCN.sh && bash LocaleCN.sh
 
-## 更改服务器时区为上海
+### 更改服务器时区为上海
 
 timedatectl set-timezone 'Asia/Shanghai'
 
-## 首先宝塔面板7.7原版
+### 首先宝塔面板7.7原版
 
 curl -sSO https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/install_panel.sh && bash install_panel.sh
 
-## 然后执行一键开心脚本
+### 然后执行一键开心脚本
 curl -sSO https://raw.githubusercontent.com/ztkink/bthappy/main/one_key_happy.sh && bash one_key_happy.sh
 
-## 最后执行下一键优化补丁
+### 最后执行下一键优化补丁
 wget -O optimize.sh http://f.cccyun.cc/bt/optimize.sh && bash optimize.sh⠀
