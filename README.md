@@ -7,6 +7,7 @@ btpanel-v7.7.0-backup  官方原版v7.7.0版本面板备份
 curl -sSO https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/install_panel.sh && bash install_panel.sh
 ```
 ============================================
+
 #宝塔面板7.7原版第三方存档
 纯原版1：curl -sSO https://raw.githubusercontent.com/zhucaidan/btpanel-v7.7.0/main/install/install_panel.sh && bash install_panel.sh
 纯原版2：wget -O install.sh http://f.cccyun.cc/bt/install_6.0.sh && bash install.sh
